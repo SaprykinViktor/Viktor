@@ -1,0 +1,10 @@
+char str[] = "This 1s my 4ext", *p = str;
+ 
+while(*p!='\0')
+{
+    if(*p>='0'&&*p <='9')
+        printf("N");
+    
+    printf("%c", *p);
+    *p++;
+}
